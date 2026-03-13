@@ -17,7 +17,7 @@ The goal is to easily create printable **paint-by-number / color-by-number puzzl
 Install the package with pip:
 
 ```bash
-pip install color-by-number
+pip install git+https://github.com/KeonZhao/color_by_number.git
 ```
 
 Dependencies will be installed automatically.
