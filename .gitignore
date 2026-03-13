@@ -1,0 +1,68 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# compiled extensions
+*.so
+
+# distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# virtual environments
+venv/
+.env/
+.envrc
+.venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Generated outputs
+# =========================
+outputs/
+results/
+mosaic/
+reference/
+
+# =========================
+# logs
+# =========================
+*.log
+
+# =========================
+# testing
+# =========================
+.coverage
+.pytest_cache/
+htmlcov/
+
+# =========================
+# temporary files
+# =========================
+*.tmp
+*.temp
