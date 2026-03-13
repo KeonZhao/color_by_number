@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "color-by-number"
+version = "0.1.0"
+description = "Turn images into color-by-number mosaics"
+authors = [{name = "Anqi Zhao"}]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "numpy",
+    "pillow",
+    "scikit-learn"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

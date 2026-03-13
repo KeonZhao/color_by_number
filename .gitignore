@@ -41,13 +41,6 @@ venv/
 .vscode/
 .idea/
 
-# =========================
-# Generated outputs
-# =========================
-outputs/
-results/
-mosaic/
-reference/
 
 # =========================
 # logs
