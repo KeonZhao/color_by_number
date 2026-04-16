@@ -13,8 +13,13 @@ requires-python = ">=3.9"
 dependencies = [
     "numpy",
     "pillow",
-    "scikit-learn"
+    "scikit-learn",
+    "scikit-image",
+    "gradio",
 ]
+
+[project.scripts]
+color-by-number-ui = "color_by_number.web_app:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
